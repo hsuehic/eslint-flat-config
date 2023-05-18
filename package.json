@@ -3,7 +3,6 @@
     "version": "0.1.0",
     "description": "Monorepo that contains Packages and modules of ESLint and CSS Lint",
     "main": "index.js",
-    "type": "module",
     "scripts": {
         "lint": "ESLINT_USE_FLAT_CONFIG=true eslint ./demo"
     },
