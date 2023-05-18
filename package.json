@@ -5,7 +5,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "lint": "ESLINT_USE_FLAT_CONFIG=true eslint"
+        "lint": "ESLINT_USE_FLAT_CONFIG=true eslint ./demo"
     },
     "keywords": [
         "ESLint",
@@ -24,11 +24,13 @@
     "dependencies": {
         "@eslint/js": "^8.40.0",
         "@typescript-eslint/eslint-plugin": "^5.59.6",
+        "eslint-config-prettier": "^8.8.0",
         "@typescript-eslint/parser": "^5.59.6",
         "eslint-plugin-jsdoc": "^44.2.4",
         "eslint-plugin-markdown": "^3.0.0",
         "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
         "globals": "^13.20.0"
     },
     "peerDependencies": {
